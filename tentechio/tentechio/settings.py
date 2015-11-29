@@ -25,7 +25,10 @@ SECRET_KEY = 's52+euk2(()5@kz(vwmro7i@wml84v3cz^juq%)8j$yxcwji-u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    '.tentech.io', # Allow domain and subdomains
+    '.tentech.io.', # Also allow FQDN and subdomains
+]
 
 
 # Application definition
