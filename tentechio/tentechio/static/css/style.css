@@ -355,6 +355,18 @@ hr {
 --- About
 ============================ */
 
+/* centered columns styles */
+
+
+
+.row-centered {
+  text-align:center;
+}
+.col-centered {
+  display:inline-block;
+  float:none !important;
+}
+
 .boxed-grey {
 	background: #f9f9f9;
 	padding: 20px;
