@@ -28,6 +28,8 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '.tentech.io', # Allow domain and subdomains
     '.tentech.io.', # Also allow FQDN and subdomains
+    '127.0.0.1.',
+    '127.0.0.1',
 ]
 
 
